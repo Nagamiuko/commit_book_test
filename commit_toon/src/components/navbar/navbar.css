@@ -1,0 +1,162 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+    background-color:rgb(255, 255, 255);
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.toggle{
+    order: 1; 
+}
+.btn-u-u{
+    order: 2;
+}
+.logo-icon{
+    order: 2;
+}
+.icon-title{
+    order: 1;
+    display: none;
+}
+.profile2{
+  order: 2;
+  margin-right: 1rem;
+}
+.profile1{
+    order: 2;
+    margin-left: 1rem;
+}
+
+.items{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    display: none;
+}
+.btn-u-u{
+    order: 3;
+}
+.profile2 .btn-b-b{
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+ /* Mobile web*/
+@media all and (min-width:830px) {
+    .menu{
+        justify-content: center;
+    }
+    .logo-icon{
+        flex:1rem;
+        margin-left: 1rem;
+    }
+    .toggle{
+        flex: 1rem;
+        text-align: left;
+    }
+    .items{
+        width: auto;
+        order: 2;
+        display: block;
+    }
+    .btn-u-u{
+        width: 45px;
+        border-radius: 50%;
+        order: 3;
+        display: block;
+        text-align: right;   
+    }
+    .profile2 .btn-b-b {
+        width: auto;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 3;      
+    }
+     .icon-title{
+       display: none;     
+    }
+
+
+}
+
+/* Destop Menu*/
+@media all  and (min-width:900px) {
+    .items{
+        display: block;
+        width: auto;
+    }
+    .toggle{
+        display: none;
+    }
+    .btn-u-u{
+        display: none;
+    }
+    
+}
+
+
+li{
+    list-style: none;
+    margin: auto 1rem;
+    padding-left: 0rem;
+    
+}
+li .logo-b-l{
+    font-size: 25px;
+    text-decoration: none;
+    left: 2rem;
+}
+.color-f{
+    /* color: rgb(255, 255, 255); */
+    color: rgb(1, 71, 151);
+}
+.color-f:hover{
+    color:rgb(44, 142, 255);
+}
+.logo-menu{
+    text-decoration: none;
+}
+.profile1{
+    width:50px;
+    height: 50px;
+    background: black;
+    overflow: hidden;
+    border-radius: 1%;
+    border-radius: .2rem;
+
+}
+.profile img{
+    object-fit: cover;
+    width: 100%;
+}
+.btn-b-b{
+    padding: 0rem 1.5rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+.btn-hov:hover{
+    background-color: rgb(44, 142, 255);
+    color: white;
+}
+.icon-size{
+    font-size: 30px;
+}
+.menu-profile{
+  display: flex;
+  justify-content: center;
+  margin-left: 0rem;
+
+
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4fd7a370.css",
+    "main.js": "/static/js/main.e55947cb.js",
+    "static/media/rgis.jpg": "/static/media/rgis.230d119d2d4eba5bb432.jpg",
+    "static/media/novel01.jpg": "/static/media/novel01.b1ca591badde8a3a6e53.jpg",
+    "static/media/book02.webp": "/static/media/book02.b17556c0d630ead7b190.webp",
+    "static/media/coverbok.png": "/static/media/coverbok.62f454ffc367d74a292c.png",
+    "static/media/ok.png": "/static/media/ok.02c7a4d8be52599c61d9.png",
+    "static/media/novel03.jpeg": "/static/media/novel03.81f023c692f3cb65dd14.jpeg",
+    "static/media/p3.jpg": "/static/media/p3.1ef1dd11735c1037d5a7.jpg",
+    "static/media/anime.gif": "/static/media/anime.10d2cf71e75f47aef6a0.gif",
+    "static/media/book2.png": "/static/media/book2.f24f8791e8d00192febf.png",
+    "static/media/book.png": "/static/media/book.380d0805e5aba590a041.png",
+    "static/media/novel04.jpeg": "/static/media/novel04.26f641402292a87fa41f.jpeg",
+    "static/media/notebook.png": "/static/media/notebook.9c7c7201fa1bc16a51dc.png",
+    "static/media/manga.png": "/static/media/manga.d556db6698233ddb3458.png",
+    "static/media/ebook.png": "/static/media/ebook.433b7eacdf4534420483.png",
+    "static/media/images.jpeg": "/static/media/images.12c9225a019f5c7fdf88.jpeg",
+    "index.html": "/index.html",
+    "main.4fd7a370.css.map": "/static/css/main.4fd7a370.css.map",
+    "main.e55947cb.js.map": "/static/js/main.e55947cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fd7a370.css",
+    "static/js/main.e55947cb.js"
+  ]
+}

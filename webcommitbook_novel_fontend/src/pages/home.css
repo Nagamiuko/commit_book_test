@@ -1,0 +1,23 @@
+.header-top{
+    position: relative;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+    height: calc(100vh);
+    background:rgba(242, 252, 255, 0.333);
+    overflow-y: hidden;
+}
+.rightbar-r{
+    position: fixed;
+    right: 0;
+    margin-right: 12px;
+    bottom: 10rem;
+}
+ .footer{
+    padding: 0 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} 

@@ -1,0 +1,223 @@
+.model-navbar{
+   padding: 0rem;
+   box-shadow: 0px 1px 10px 0px rgba(61,61,61,0.94);
+   position:relative;
+   z-index: 10;
+}
+.model-body-bg{
+    height: calc(100vh - 70px);
+    background: rgb(248, 252, 255);
+}
+.model-body{
+    margin: 0 auto;
+    max-width: 1100px;
+    height: calc(100vh - 75px);
+}
+.model-box-content{
+    top: 2rem;
+    position: relative;
+    width: 100%;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 12px 15px rgb(140 152 164 / 10%);
+}
+.m-harder{
+    color: #656565;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 0.0625rem solid #e7eaf3;
+    border-top-left-radius: 0.6875rem;
+    border-top-right-radius: 0.6875rem;
+}
+.btn-back{
+    text-decoration: none;
+    color: #656565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px solid slategray;
+    cursor: pointer;
+}
+.btn-back:hover{
+  padding: 0rem .3rem;
+  border-bottom: none;
+  color: white;
+  background:rgb(44, 142, 255);
+  border-radius: 1rem;
+}
+.m-harder h2{
+    color:rgb(97, 210, 255);
+    font-size: 20px;
+}
+.row-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0px;
+    margin-left: -0px;
+}
+.col4-img{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.pot-re{
+    position: relative !important;
+    padding: 1rem .4rem;
+    margin-left: 0rem;
+}
+
+.i-c-s{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+.i-c-s .img-cover{
+    width: 110%;
+    height: auto;
+    border-radius: .5rem;
+}
+.up-icon{
+    width: 95%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: inline-block; */
+    cursor: pointer;
+}
+.up-icon:hover{
+    color: rgb(255, 255, 255);
+}
+.d-flex {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.mr-r-l{
+    margin-left: 1.1rem;
+    margin-top: 3rem;
+}
+.cover-img-b{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    padding: 0px 12px; 
+}
+.image-up{
+    position: absolute;
+    width: 185px;
+    height: 185px;
+}
+/* .c-b{
+    padding: 0rem 0rem;
+    width:292px;
+  
+} */
+.img-cover-co{
+    object-fit: cover;
+    width: 100%;
+}
+.mr-lr-tb{
+    margin-top: 2.5rem;
+    margin-left: 6rem;
+    margin-right: 1rem;
+}
+.mt-l-r-t{
+    margin-top: 1rem;
+    margin-left: -3rem;
+}
+.mt-2{
+    margin-left: -.5rem;
+}
+.col5-i-s{
+
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+.col-md-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-left: -1.5rem;
+}
+
+.col-md-13{
+    flex: 0 0 45%;
+    max-width: 50%;
+    margin-left: 1.6rem;
+}
+.col-md-4{
+    flex: 0 0 29%;
+    max-width: 33%;
+    margin-left: 1.6rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.6em + 1.625rem);
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #858585;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.0625rem solid #e7eaf3;
+    border-radius: .5rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sum-e-t{
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+.form-group {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.form-check-inline {
+    padding-left: 0;
+    margin-right: 0.75rem;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.5rem;
+}
+.custom-control {
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-height: 1.6rem;
+    padding-left: 0rem;
+    color-adjust: exact;
+}
+.custom-control-input{
+    margin-right: .5rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.bt-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mt-b{
+    margin-bottom: 1rem;
+}
+.btn-n-s{
+    padding: .8rem 2rem;
+    background: #c5c5c5;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.btn-n-s:hover{
+    color: white;
+    background:rgb(44, 142, 255);
+}
